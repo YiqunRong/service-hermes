@@ -1,0 +1,25 @@
+{
+  "name": "service-hermes",
+  "version": "1.0.0",
+  "description": "the service allows user to check bag availability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node checkHermes.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "http-proxy-agent": "^5.0.0",
+    "https-proxy-agent": "^5.0.1",
+    "i": "^0.3.7",
+    "node-html-parser": "^6.1.5",
+    "npm": "^9.6.5",
+    "proxy-agent": "^5.0.0",
+    "puppeteer": "^19.11.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "twilio": "^4.10.0"
+  }
+}
